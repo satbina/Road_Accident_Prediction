@@ -8,6 +8,7 @@ import matplotlib
 from IPython import get_ipython
 from PIL import Image
 
+
 # load the encoder and model object
 model = joblib.load("rta_model_deploy3.joblib")
 encoder = joblib.load("ordinal_encoder2.joblib")
